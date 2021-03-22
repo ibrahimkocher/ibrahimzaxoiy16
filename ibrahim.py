@@ -189,11 +189,11 @@ while loop == 'true':
 
         else:
 
-           print '\x1b[1;91mPASSWORD XALATA\x1b[1;97m'
+           print '\x1b[1;91mWRONG USERNAME\x1b[1;97m'
 
     else:
 
-        print '\x1b[1;91mUSERNAME XALATA\x1b[1;97m'
+        print '\x1b[1;91mWRONG PASSWORD\x1b[1;97m'
 
 def lisensi():
 

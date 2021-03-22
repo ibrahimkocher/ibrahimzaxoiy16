@@ -104,7 +104,7 @@ def tik():
 
     for o in titik:
 
-        print '\r\x1b[1;90mTKAYA BOSTA \x1b[1;90m' + o,
+        print '\r\x1b[1;97mTKAYA BOSTA \x1b[1;97m' + o,
 
         sys.stdout.flush()
 
@@ -136,10 +136,7 @@ vuln = '\x1b[32mVuln'
 
 os.system('clear')
 
-logo = """\033[92m ________  ______   _____
-
-
-
+logo = """\033[92m
 
  /$$$$$$   /$$    /$$$$$$ 
 |_  $$_/ /$$$$   /$$__  $$
@@ -148,38 +145,20 @@ logo = """\033[92m ________  ______   _____
   | $$    | $$  | $$__  $$
   | $$    | $$  | $$  \ $$
  /$$$$$$ /$$$$$$|  $$$$$$/
-|______/|______/ \______/ 
-                          
-                          
-                          
+|______/|______/ \______/                                                
+                                               
+\033[97m------------------------------------------
 
-                                                
- 
-\033[90m-------------------------------------------------
-
-\033[91mAM - TOOLA - LALAYAN - IBRAHIM - DRUSTKARWA 
+\033[97mAM - TOOLA - LALAYAN - IBRAHIM - DRUSTKARWA 
 
 \033[91mTOOL VIP 5$
 
-\033[93mCHANNEL / @HACKERTOLL11
-\033[93mCHANNEL CHAT / @termux99a
+\033[97mTELEGRAM / ibrahimzaxoiy16
 
-\033[90m--------------------------------------------------- 
+
+\033[97m--------------------------------------------
 """
-logo2 = """\033[92m ________  ______   _____        
 
-
- /$$$$$$   /$$    /$$$$$$ 
-|_  $$_/ /$$$$   /$$__  $$
-  | $$  |_  $$  | $$  \__/
-  | $$    | $$  | $$$$$$$ 
-  | $$    | $$  | $$__  $$
-  | $$    | $$  | $$  \ $$
- /$$$$$$ /$$$$$$|  $$$$$$/
-|______/|______/ \______/ 
-                                                                        
-
-_______________________________________"""
 CorrectUsername = 'ibrahim16'
 
 CorrectPassword = 'i16'
@@ -192,11 +171,11 @@ loop = 'true'
 
 while loop == 'true':
 
-    username = raw_input('\x1b[1;90m\xe2\x9e\xa3 Username : ')
+    username = raw_input('\x1b[1;97m\xe2\x9e\xa3 Username : ')
 
     if username == CorrectUsername:
 
-        password = raw_input('\x1b[1;90m\xe2\x9e\xa3 Password : ')
+        password = raw_input('\x1b[1;97m\xe2\x9e\xa3 Password : ')
 
         if password == CorrectPassword:
 
@@ -226,21 +205,23 @@ def menu():
 
     print logo
 
-    print '\x1b[1;92m[1]\x1b[1;90m CRACK NUMBER KURDISTAN  \033[92m[NO CECKPOINT] \033[90m'
+    print '\x1b[1;92m[1]\x1b[1;97m CRACK NUMBER KURDISTAN  \033[92m[NO CP] \033[97m'
 
-    print '\n\x1b[1;92m[0]\x1b[1;90mDARCHON           '
+    print '\n\x1b[1;92m[0]\x1b[1;97mDARCHON           '
 
-    print '\x1b[1;97m--------------------------------------------------\n'
+    print '\x1b[1;97m-------------------------------------------------------------------\n'
 
     action()
 
 def action():
+    
+    global successful
 
     global cpb
 
     global oks
 
-    peak = raw_input('\n\x1b[1;93mHALBCHERA : \x1b[1;93m')
+    peak = raw_input('\n\x1b[1;97mHALBSHERA : \x1b[1;97m')
 
     if peak == '':
 
@@ -254,11 +235,11 @@ def action():
 
         print logo
 
-        print '\x1b[1;90m770 771 772 773 774 750 751 752-753 754 780 781 782 783 784' + '\n'
+        print '\x1b[1;92m770 771 772 773 774 750 751 752-753 754 780 781 782 783 784' + '\n'
         
         try:
 
-            c = raw_input('\x1b[1;93mSARATAKAY CHE BET  : ')
+            c = raw_input('\x1b[1;97mSARATAKAY CHE BET  : ')
 
             k = '+964'
 
@@ -284,15 +265,11 @@ def action():
 
     xxx = str(len(id))
 
-    psb('[\xe2\x9c\x93] HAMU RAQAMAKAN ' + xxx)
+    psb('[\xe2\x9c\x91] HAMU RAQAMAKAN ' + xxx)
 
     time.sleep(0.5)
 
-    psb('[\xe2\x9c\x93] CRACK DASTPE KRD')
-
-    time.sleep(0.5)
-
-    psb('[\xe2\x9c\x93] TKAYA BOSTA TA CRACK DAKA...')
+    psb('[\xe2\x9c\x97] CRACK RUNNING...')
 
     time.sleep(0.5)
 
@@ -300,7 +277,7 @@ def action():
 
     time.sleep(0.5)
 
-    print '\x1b[1;90m--------------------------------------------'
+    print '\x1b[1;97m-------------------------------------------------'
 
     def main(arg):
 

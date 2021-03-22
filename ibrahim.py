@@ -104,7 +104,7 @@ def tik():
 
     for o in titik:
 
-        print '\r\x1b[1;97mTKAYA BOSTA \x1b[1;97m' + o,
+        print '\r\x1b[1;99mTKAYA BOSTA \x1b[1;99m' + o,
 
         sys.stdout.flush()
 
@@ -151,14 +151,14 @@ logo = """\033[92m
  _/ /    / /_/ /  / _, _/  / ___ | / __  /   _/ /    / /  / /  
 /___/   /_____/  /_/ |_|  /_/  |_|/_/ /_/   /___/   /_/  /_/                                                                                                 
 
-\033[97mCREADET BY IBRAHIM 
+\033[99mCREADET BY IBRAHIM 
 
 \033[91mTOOL VIP 5$
 
-\033[97mTELEGRAM / @ibrahimzaxoiy16
+\033[99mTELEGRAM / @ibrahimzaxoiy16
 
+\033[99m------------------------------------------------------------
 
-\033[99m--------------------------------------------------------------------
 """
 
 CorrectUsername = 'ibrahim16'
@@ -189,11 +189,11 @@ while loop == 'true':
 
         else:
 
-           print '\x1b[1;91m[\xe2\x9c\x93]PASSWORD XALATA'
+           print '\x1b[1;91mPASSWORD XALATA\x1b[1;99m'
 
     else:
 
-        print '\x1b[1;91m[\xe2\x9c\x93]USERNAME XALATA'
+        print '\x1b[1;91mUSERNAME XALATA\x1b[1;99m'
 
 def lisensi():
 
@@ -207,11 +207,9 @@ def menu():
 
     print logo
 
-    print '\x1b[1;92m[1]\x1b[1;90m CRACK NUMBER KURDISTAN  \033[92m[NO CP] \033[97m'
+    print '\x1b[1;92m[1]\x1b[1;99m CRACK NUMBER KURDISTAN  \033[92m[NO CP] \033[99m'
 
     print '\n\x1b[1;92m[0]\x1b[1;99mBACK           '
-
-    print '\x1b[1;97m-----------------------------------------------------------------------\n'
 
     action()
 
@@ -237,7 +235,9 @@ def action():
 
         print logo
 
-        print '\x1b[1;99m770 771 772 773 774 750 751 752 753 754 780 781 782 783 784' + '\n'        
+        print '\x1b[1;99m 770 771 772 773 774\n
+        750 751 752 753 754\n
+        780 781 782 783 784' + '\n'       
       
         try:
 
@@ -274,9 +274,7 @@ def action():
     psb('[\xe2\x9c\x99] CRACK RUNNING...')
 
     time.sleep(0.5)
-
-    print '\x1b[1;99m---------------------------------------------------------------------------'
-
+    
     def main(arg):
 
         user = arg

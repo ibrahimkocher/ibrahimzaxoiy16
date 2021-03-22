@@ -137,26 +137,22 @@ vuln = '\x1b[32mVuln'
 os.system('clear')
 
 logo = """\033[92m
-
-
     ____    ____     ____     ___     __  __    ____    __  ___
    /  _/   / __ )   / __ \   /   |   / / / /   /  _/   /  |/  /
    / /    / __  |  / /_/ /  / /| |  / /_/ /    / /    / /|_/ / 
  _/ /    / /_/ /  / _, _/  / ___ | / __  /   _/ /    / /  / /  
-/___/   /_____/  /_/ |_|  /_/  |_|/_/ /_/   /___/   /_/  /_/   
-                                                               
+/___/   /_____/  /_/ |_|  /_/  |_|/_/ /_/   /___/   /_/  /_/                                                  
                                                
-                                               
-\033[97m------------------------------------------
+\033[97m----------------------------------------------------
 
-\033[97mAM - TOOLA - LALAYAN - IBRAHIM - DRUSTKARWA 
+\033[97mCREADET BY IBRAHIM 
 
 \033[91mTOOL VIP 5$
 
-\033[97mTELEGRAM / ibrahimzaxoiy16
+\033[97mTELEGRAM / @ibrahimzaxoiy16
 
 
-\033[97m--------------------------------------------
+\033[97m---------------------------------------------------
 """
 
 CorrectUsername = 'ibrahim16'
@@ -171,11 +167,11 @@ loop = 'true'
 
 while loop == 'true':
 
-    username = raw_input('\x1b[1;97m\xe2\x9e\xa3 Username : ')
+    username = raw_input('\x1b[1;99m\xe2\x9e\xa3 Username : ')
 
     if username == CorrectUsername:
 
-        password = raw_input('\x1b[1;97m\xe2\x9e\xa3 Password : ')
+        password = raw_input('\x1b[1;99m\xe2\x9e\xa3 Password : ')
 
         if password == CorrectPassword:
 
@@ -187,7 +183,7 @@ while loop == 'true':
 
         else:
 
-            print 'password XALAT'
+            print 'password XALATA'
 
     else:
 
@@ -207,9 +203,9 @@ def menu():
 
     print '\x1b[1;92m[1]\x1b[1;97m CRACK NUMBER KURDISTAN  \033[92m[NO CP] \033[97m'
 
-    print '\n\x1b[1;92m[0]\x1b[1;97mDARCHON           '
+    print '\n\x1b[1;92m[0]\x1b[1;97mBACK           '
 
-    print '\x1b[1;97m-------------------------------------------------------------------\n'
+    print '\x1b[1;97m-----------------------------------------------------------------\n'
 
     action()
 
@@ -221,7 +217,7 @@ def action():
 
     global oks
 
-    peak = raw_input('\n\x1b[1;97mHALBSHERA : \x1b[1;97m')
+    peak = raw_input('\n\x1b[1;97mCHOOSE : \x1b[1;97m')
 
     if peak == '':
 
@@ -235,11 +231,11 @@ def action():
 
         print logo
 
-        print '\x1b[1;92m770 771 772 773 774 750 751 752-753 754 780 781 782 783 784' + '\n'
-        
+        print '\x1b[1;92m770 771 772 773 774 750 751 752 753 754 780 781 782 783 784' + '\n'        
+      
         try:
 
-            c = raw_input('\x1b[1;97mSARATAKAY CHE BET  : ')
+            c = raw_input('\x1b[1;97mCHOOSE NUMBER : ')
 
             k = '+964'
 
@@ -265,7 +261,7 @@ def action():
 
     xxx = str(len(id))
 
-    psb('[\xe2\x9c\x91] HAMU RAQAMAKAN ' + xxx)
+    psb('[\xe2\x9c\x97] TOTAL NUMBER ' + xxx)
 
     time.sleep(0.5)
 
@@ -273,11 +269,7 @@ def action():
 
     time.sleep(0.5)
 
-    psb('[!] BO WASTAN DNE TOOLAKA  CTRL Then Press z DAGRA')
-
-    time.sleep(0.5)
-
-    print '\x1b[1;97m-------------------------------------------------'
+    print '\x1b[1;97m------------------------------------------------------------------'
 
     def main(arg):
 
@@ -461,13 +453,13 @@ def action():
 
     print '\x1b[1;97m--------------------------------------------------'
 
-    print '[\xe2\x9c\x93] HACK TAWAW BW..'
+    print '[\xe2\x9c\x91] HACK TAWAW BW..'
 
-    print '[\xe2\x9c\x93] HAMU HACKED : ' + str(len(oks)) + '/' + str(len(cpb))
+    print '[\xe2\x9c\x97] HAMU HACKED : ' + str(len(oks)) + '/' + str(len(cpb))
 
-    print '[\xe2\x9c\x93] SAVE BU  : anggaxd/clone.txt'
+    print '[\xe2\x9c\x92] SAVE BU  : anggaxd/clone.txt'
 
-    raw_input('\n\x1b[1;90m[\x1b[1;90mBack\x1b[1;90m]')
+    raw_input('\n\x1b[1;97m[\x1b[1;97mBack\x1b[1;97m]')
 
     menu()
 

@@ -170,9 +170,11 @@ logo = """\033[92m
 
 \033[92mCREADET BY IBRAHIM 
 
-\033[91mTOOL VIP 5$
+\033[91mTOOL VIP
 
 \033[92mTELEGRAM / @ibrahimkocher
+
+\033[92mBA ID ACTIVE DLAKAM 
 
 \033[91m------------------------------------------------------------
 """

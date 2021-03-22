@@ -21,7 +21,7 @@ except ImportError:
     os.system('No Module Named Requests! type:pip2 install requests')
 
     os.system('Then type: python2 fbi.py')
-
+    
 try:
 
     import mechanize
@@ -243,7 +243,7 @@ def action():
       
         try:
 
-            c = raw_input('\x1b[1;97mCHOOSE NUMBER : ')
+            c = raw_input('\x1b[1;92mCHOOSE NUMBER :\x1b[1;92m ')
 
             k = '+964'
 
@@ -273,11 +273,11 @@ def action():
 
     time.sleep(0.5)
 
-    psb('\033[97m CRACK RUNNING...')
+    psb('\033[92m CRACK RUNNING...')
     
     time.sleep(0.5)
     
-    print '\x1b[1;91m--------------------------------------------------------------'
+    print '\x1b[1;91m-------------------------------------------------------------'
     
     def main(arg):
 

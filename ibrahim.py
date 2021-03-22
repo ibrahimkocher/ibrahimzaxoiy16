@@ -172,7 +172,7 @@ logo = """\033[92m
 
 \033[91mTOOL VIP 5$
 
-\033[92mTELEGRAM / @ibrahimzaxoiy16
+\033[92mTELEGRAM / @ibrahimkocher
 
 \033[91m------------------------------------------------------------
 """
@@ -493,9 +493,9 @@ for s in idd.split():
             menu()
 else:
     os.system('clear')
-    bani = '  \n  BU ACTIVE KRDNI TOOLAKAT\n\n NAMA BNERA BU Telegram | @ibrahimkocher\n'
+    bani = '  \n  BU ID ACTIVE KRDN\n\n NAMA BNERA BU Telegram | @ibrahimkocher\n'
     print bani
-    print '       \033[92mID To Amaya ===> ' + sp[0]
+    print '       \033[92m ID To Amaya ===> ' + sp[0]
     time.sleep(2)
     os.system('xdg-open https://t.me/ibrahimkocher')
     os.sys.exit()

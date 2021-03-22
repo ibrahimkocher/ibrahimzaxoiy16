@@ -136,7 +136,7 @@ vuln = '\x1b[32mVuln'
 
 os.system('clear')
 
-logo = """
+logo = """\033[92m ________  ______   _____
 
 
 

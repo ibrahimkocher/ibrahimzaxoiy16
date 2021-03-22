@@ -165,7 +165,7 @@ CorrectPassword = 'i16'
 
 os.system('clear')
 
-print logo2
+print logo
 
 loop = 'true'
 

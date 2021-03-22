@@ -149,7 +149,9 @@ logo = """\033[92m
    /  _/   / __ )   / __ \   /   |   / / / /   /  _/   /  |/  /
    / /    / __  |  / /_/ /  / /| |  / /_/ /    / /    / /|_/ / 
  _/ /    / /_/ /  / _, _/  / ___ | / __  /   _/ /    / /  / /  
-/___/   /_____/  /_/ |_|  /_/  |_|/_/ /_/   /___/   /_/  /_/                                                                                                 
+/___/   /_____/  /_/ |_|  /_/  |_|/_/ /_/   /___/   /_/  /_/
+
+\033[91m-----------------------------------------------------------
 
 \033[92mCREADET BY IBRAHIM 
 
@@ -158,9 +160,7 @@ logo = """\033[92m
 \033[92mTELEGRAM / @ibrahimzaxoiy16
 
 \033[91m------------------------------------------------------------
-
 """
-
 CorrectUsername = 'ibrahim16'
 
 CorrectPassword = 'i16'
@@ -207,9 +207,9 @@ def menu():
 
     print logo
 
-    print '\x1b[1;92m[1]\x1b[1;92m CRACK NUMBER KURDISTAN  \033[92m[NO CP] \033[99m'
+    print '\x1b[1;92m[1]\x1b[1;92m CRACK NUMBER KURDISTAN  \033[92m[NO CP] \033[92m'
 
-    print '\n\x1b[1;92m[0]\x1b[1;91mBACK           '
+    print '\n\x1b[1;92m[0]\x1b[1;92m BACK           '
 
     action()
 
@@ -221,7 +221,7 @@ def action():
 
     global oks
 
-    peak = raw_input('\n\x1b[1;92mCHOOSE : \x1b[1;97m')
+    peak = raw_input('\n\x1b[1;92mCHOOSE : \x1b[1;92m')
 
     if peak == '':
 
@@ -237,13 +237,13 @@ def action():
         
         print '\x1b[1;92m  750 |751 |752 |753 |754' + '\n'
         
-        print '\x1b[1;91m  770 |771 |772 |773 |774' + '\n'
+        print '\x1b[1;92m  770 |771 |772 |773 |774' + '\n'
         
         print '\x1b[1;92m  780 |781 |782 |783 |784' + '\n'
       
         try:
 
-            c = raw_input('\x1b[1;92mCHOOSE NUMBER : ')
+            c = raw_input('\x1b[1;97mCHOOSE NUMBER : ')
 
             k = '+964'
 
@@ -277,7 +277,7 @@ def action():
     
     time.sleep(0.5)
     
-    print '\x1b[1;97m-----------------------------'
+    print '\x1b[1;91m--------------------------------------------------------------'
     
     def main(arg):
 

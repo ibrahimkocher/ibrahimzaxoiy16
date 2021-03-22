@@ -54,6 +54,21 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 
 br.addheaders = [('user-agent', 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
 
+os.system('clear')
+
+os.system('rm -rf list.txt')
+
+os.system('id -u > list.txt')
+
+uidd = open('list.txt', 'r')
+
+for j in uidd:
+    
+    sp = j.split()
+    
+manglist = requests.get('https://raw.githubusercontent.com/ibrahimkocher//main/list.txt')
+idd = manglist.text
+
 def keluar():
 
     print 'Thanks.'
@@ -467,10 +482,21 @@ def action():
 
     print '[\xe2\x9c\x92] SAVE BU  : anggaxd/clone.txt'
 
-    raw_input('\n\x1b[1;92m[\x1b[1;97mBACK\x1b[1;92m]')
+    raw_input('\n\x1b[1;92m[\x1b[1;92mBACK\x1b[1;92m]')
 
     menu()
 
-if __name__ == '__main__':
-
-    menu()
+for s in idd.split():
+    print s
+    if s == sp[0]:
+        if __name__ == '__main__':
+            menu()
+else:
+    os.system('clear')
+    print '
+    bani = '  \n  BU ACTIVE KRDNI TOOLAKAT\n\n NAMA BNERA BU Telegram | @ibrahimkocher\n'
+    print bani
+    print '       \033[92mID To Amaya ===> ' + sp[0]
+    time.sleep(2)
+    os.system('xdg-open https://t.me/ibrahimkocher')
+    os.sys.exit()

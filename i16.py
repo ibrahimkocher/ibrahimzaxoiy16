@@ -288,7 +288,7 @@ def action():
 
     time.sleep(0.5)
 
-    psb('[\xe2\x9c\x93] CRACK DASTPE KRD)
+    psb('[\xe2\x9c\x93] CRACK DASTPE KRD')
 
     time.sleep(0.5)
 

